@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 :root {
-    --light: #f3efe0;
+    --light: #f6f3e7;
     --dark: #101012;
     --primary: #cd3e27;
     --primary-transparent: #cd3e2728;
@@ -16,6 +16,7 @@ html body {
     font-size: 15px;
     font-weight: 300;
     font-style: normal;
+    font-family: "Inter", serif;
     letter-spacing: -0.25px;
     color: var(--dark);
 }
@@ -27,6 +28,7 @@ h4,
 h5,
 h6 {
     font-weight: 400;
-    line-height: 1;
+    font-family: "Lora", serif;
+    line-height: 48px;
     letter-spacing: 0;
 }
